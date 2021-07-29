@@ -1,7 +1,5 @@
 const COUNTRY_URL = "https://restcountries.eu/rest/v2/"
 
-//BREAK TIME UNTIL 4PM EASTERN
-
 const main = document.createElement("main")
 document.body.append(main)
 
@@ -11,11 +9,11 @@ countryDiv.classList.add("countryDiv")
 const countryList = document.createElement("ul")
 countryDiv.append(countryList)
 
-
 const displayCountry = function (country){
     const li = document.createElement("li")
     const card = document.createElement("div")
     card.classList.add("card")
+    
     // add country name to list
     li.append(card)
     countryList.append(li)
