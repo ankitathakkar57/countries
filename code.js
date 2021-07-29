@@ -13,7 +13,7 @@ const displayCountry = function (country){
     const li = document.createElement("li")
     const card = document.createElement("div")
     card.classList.add("card")
-    
+
     // add country name to list
     li.append(card)
     countryList.append(li)
@@ -42,7 +42,6 @@ const displayCountry = function (country){
     `
     infoDiv.innerHTML = info
     card.append(infoDiv)
-
     console.log(country)
     main.append(countryDiv)
 }
